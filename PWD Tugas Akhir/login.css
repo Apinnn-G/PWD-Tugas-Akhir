@@ -1,0 +1,76 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+   /* Header atas: Logo */
+    .navbar-top {
+    background-color: #2f2f2f;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    }
+
+  /* Warna dan logo:NONTON */
+    .navbar-top .logo {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  /* Warna dan logo:IQ */
+  .navbar-top .logo span {
+    color: #00cc44;
+  }
+  
+  /* Login */
+  .login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+  }
+
+  /* Tulisan Logo */
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  /* Kotak pengisian Username dan Password */
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin: 8px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* button Masuk */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  /* button Masuk ketika disentuh cursor mouse akan berubah warna */
+    button:hover {
+    background-color: #45a049;
+  }

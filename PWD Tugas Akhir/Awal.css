@@ -1,0 +1,129 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    /* Style Header atas: Logo dan Search */
+    .navbar-top {
+      background-color: #2f2f2f;
+      padding: 10px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar-top .logo {
+      font-size: 24px;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    .navbar-top .logo span {
+      color: #00cc44;
+    }
+
+    .search-bar {
+      position: relative;
+      width: 300px;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 8px 15px 8px 35px;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    .search-bar::before {
+      content: '🔍';
+      position: absolute;
+      left: 10px;
+      top: 8px;
+      color: #666;
+    }
+
+    /* Style Menu Navigasi */
+    .navbar-bottom {
+      background-color: #1a1a1a;
+      padding: 10px 30px;
+      display: flex;
+      gap: 30px;
+    }
+
+    .navbar-bottom a {
+        color: #cccccc;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.7s ease;
+      }
+      
+      .navbar-bottom a:hover {
+        color: #ffffff;
+      }
+      
+
+    /* Style Tengah */
+    .Tengah {
+      background-color: #33cc55;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    .Tengah h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .Tengah p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    /* Style Footer */
+.footer {
+    background-color: #33cc55;
+    color: white;
+    padding: 30px 50px;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    max-width: 70%;
+    line-height: 1.5;
+}
+
+.footer-right {
+    display: flex;
+    gap: 10px; /* Jarak antar icon */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-right a {
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; /* Bisa disesuaikan ukuran */
+    height: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+  }
+  
+  .footer-right a:hover {
+    background-color: white;
+    color: #33cc55;
+  }
+  
