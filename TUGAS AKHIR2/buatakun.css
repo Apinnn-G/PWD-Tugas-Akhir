@@ -1,0 +1,78 @@
+/* Umum */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000; /* Background hitam khas NONTONIQ */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Kontainer Form Login */
+.login-container {
+    background-color: #111; /* Warna gelap untuk kotak form */
+    border: 2px solid red; /* Border merah khas tema */
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Logo atau Judul */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Input Fields */
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="email"],
+.login-container select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Tombol Login */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #cc0000;
+}
+
+/* Link Tambahan */
+.login-container .bottom-link {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.login-container .bottom-link a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container .bottom-link a:hover {
+    text-decoration: underline;
+}

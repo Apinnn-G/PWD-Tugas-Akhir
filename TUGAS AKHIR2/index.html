@@ -11,14 +11,21 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
     <!-- Navbar -->
      <header>
         <a href="#" class="logo">
-            <i class='bx bx-movie' ></i> Movies
+            <i class='bx bx-movie' ></i> NONTONIQ
         </a>
         <div class="bx bx-menu" id="menu-icon"></div>
+
+        <form action="search.php" method="GET" class="search-form">
+        <input type="text" name="keyword" placeholder="Cari film..." required>
+        <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+
         <!-- Menu -->
          <ul class="navbar">
             <li><a href="#home" class="home-active">Home</a></li>
@@ -26,7 +33,7 @@
             <li><a href="#coming">Coming</a></li>
             <li><a href="#newsletter">Newsletter</a></li>
         </ul>
-         <a href="#" class="btn">Sign In</a>
+         <a href="signin.php" class="btn">Sign In</a>
      </header>
      <!-- Home -->
       <section class="home swiper" id="home">
@@ -35,23 +42,16 @@
             <div class="swiper-slide conatiner">
                 <img src="img/home1.jpg" alt="">
                 <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Venom: Let There <br> Be Carnage</h1>
-                    <a href="#" class="btn">Book Now</a>
-                    <a href="#" class="play">
-                        <i class='bx bx-book-open'></i> 
-                    </a>
+                    <span>Coming Soon</span>
+                    <h1>Godaan Setan <br> Yang Terkutuk</h1>
                 </div>
             </div>
             <!-- Box 2 -->
              <div class="swiper-slide conatiner">
                 <img src="img/home2.jpg" alt="">
                 <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Avengers: <br> Infinity War</h1>
-                    <a href="#" class="btn">Book Now</a>
-                    <a href="#" class="play">
-                        <i class='bx bx-book-open'></i> 
+                    <span>Coming Soon</span>
+                    <h1>Dasim: <br> Jin Peneror Rumah</h1> 
                     </a>
                 </div>
             </div>
@@ -59,12 +59,8 @@
              <div class="swiper-slide conatiner">
                 <img src="img/home3.jpg" alt="">
                 <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Spider-Man: <br> Far From Home</h1>
-                    <a href="#" class="btn">Book Now</a>
-                    <a href="#" class="play">
-                        <i class='bx bx-book-open'></i> 
-                    </a>
+                    <span>Coming Soon</span>
+                    <h1>Final Detination: <br> Bloodlines</h1>
                 </div>
             </div>
     
@@ -82,80 +78,80 @@
             <div class="box-img">
                 <img src="img/m1.jpg" alt="">
             </div>
-            <h3>Venom</h3>
-            <span>120 min | Action</span>
+            <h3>Lilo & Stitch</h3>
+            <span>1h 48m | Adventure</span>
          </div>
          <!-- Box 2 -->
              <div class="box">
             <div class="box-img">
                 <img src="img/m2.jpg" alt="">
             </div>
-            <h3>Dunkirk</h3>
-            <span>120 min | Adventure</span>
+            <h3>Cocote Tonggo</h3>
+            <span>1h 57m | Comedy</span>
          </div>
          <!-- Box 3 -->
              <div class="box">
             <div class="box-img">
                 <img src="img/m3.jpg" alt="">
             </div>
-            <h3>Batman vs Superman</h3>
-            <span>120 min | Thriller</span>
+            <h3>Pembantaian Dukun Santet</h3>
+            <span>1h 32m | Horror</span>
          </div>
          <!-- Box 4 -->
              <div class="box">
             <div class="box-img">
                 <img src="img/m4.jpg" alt="">
             </div>
-            <h3>John Wick 2</h3>
-            <span>120 min | Adventure</span>
+            <h3>Mungkin Kita Perlu Waktu</h3>
+            <span>1h 38m | Family, Drama</span>
          </div>
          <!-- Box 5 -->
              <div class="box">
             <div class="box-img">
                 <img src="img/m5.jpg" alt="">
             </div>
-            <h3>Aquaman</h3>
-            <span>120 min | Action</span>
+            <h3>Pengepungan Di Bukit Duri</h3>
+            <span>1h 58m | Thriller</span>
          </div>
          <!-- Box 6 -->
              <div class="box">
             <div class="box-img">
                 <img src="img/m6.jpg" alt="">
             </div>
-            <h3>Black Panther</h3>
-            <span>120 min | Thriller</span>
+            <h3>Mendadak Dangdut</h3>
+            <span>1h 49m | Comedy</span>
          </div>
          <!-- Box 7 -->
              <div class="box">
             <div class="box-img">
                 <img src="img/m7.jpg" alt="">
             </div>
-            <h3>Thor</h3>
-            <span>120 min | Adventure</span>
+            <h3>Mumu</h3>
+            <span>1h 51m | Drama</span>
          </div>
          <!-- Box 8 -->
              <div class="box">
             <div class="box-img">
-                <img src="img/m8.png" alt="">
+                <img src="img/m8.jpg" alt="">
             </div>
-            <h3>Bumblebee</h3>
-            <span>120 min | Thriller</span>
+            <h3>Gundik</h3>
+            <span>1h 52m | Horror</span>
          </div>
          <!-- Box 9 -->
              <div class="box">
             <div class="box-img">
                 <img src="img/m9.jpg" alt="">
             </div>
-            <h3>Mortal Engines</h3>
-            <span>120 min | Action</span>
+            <h3>Thunderbolts</h3>
+            <span>2h 7m | Action</span>
          </div>
          <!-- Box 10 -->
              <div class="box">
             <div class="box-img">
                 <img src="img/m10.jpg" alt="">
             </div>
-            <h3>UnderWorld Blood Wars</h3>
-            <span>120 min | Action</span>
+            <h3>The Red Envelope</h3>
+            <span>2h 8m | Comedy</span>
          </div>
          </div>
       </section>
@@ -170,80 +166,80 @@
             <div class="box-img">
                 <img src="img/coming1.jpg" alt="">
             </div>
-            <h3>Johnny English</h3>
-            <span>120 min | Action</span>
+            <h3>Godaan Setan Yang Terkutuk</h3>
+            <span>1h 20m | Horror</span>
          </div>
          <!-- Box 2 -->
              <div class="swiper-slide box">
             <div class="box-img">
                 <img src="img/coming2.jpg" alt="">
             </div>
-            <h3>Warcraft</h3>
-            <span>120 min | Adventure</span>
+            <h3>Jumbo</h3>
+            <span>1h 20m | Fantasy</span>
          </div>
          <!-- Box 3 -->
              <div class="swiper-slide box">
             <div class="box-img">
                 <img src="img/coming3.jpg" alt="">
             </div>
-            <h3>Rampage</h3>
-            <span>120 min | Thriller</span>
+            <h3>How To Train Your Dragon</h3>
+            <span>2h 5m | Adventure</span>
          </div>
          <!-- Box 4 -->
              <div class="swiper-slide box">
             <div class="box-img">
                 <img src="img/coming4.jpg" alt="">
             </div>
-            <h3>Iron Lady</h3>
-            <span>120 min | Adventure</span>
+            <h3>Waktu Maghrib 2</h3>
+            <span>1h 47m | Horror</span>
          </div>
          <!-- Box 5 -->
              <div class="swiper-slide box">
             <div class="box-img">
                 <img src="img/coming5.jpg" alt="">
             </div>
-            <h3>Justice Language</h3>
-            <span>120 min | Action</span>
+            <h3>Runt</h3>
+            <span>1h 31m | Adventure</span>
          </div>
          <!-- Box 6 -->
              <div class="swiper-slide box">
             <div class="box-img">
-                <img src="img/coming6.jpeg" alt="">
+                <img src="img/coming6.jpg" alt="">
             </div>
-            <h3>Doctor Stranger</h3>
-            <span>120 min | Thriller</span>
+            <h3>Doti - Tumbal Ilmu Hitam</h3>
+            <span> ? | Horror</span>
          </div>
          <!-- Box 7 -->
              <div class="swiper-slide box">
             <div class="box-img">
                 <img src="img/coming7.jpg" alt="">
             </div>
-            <h3>Captain Marvel</h3>
-            <span>120 min | Adventure</span>
+            <h3>Mission:Impossible-The Final Reckoning</h3>
+            <span>2h 49m | Action</span>
          </div>
          <!-- Box 8 -->
              <div class="swiper-slide box">
             <div class="box-img">
                 <img src="img/coming8.jpg" alt="">
             </div>
-            <h3>Black Widow</h3>
-            <span>120 min | Thriller</span>
+            <h3>Angel Pol</h3>
+            <span> ? | Comedy</span>
          </div>
          <!-- Box 9 -->
              <div class="swiper-slide box">
             <div class="box-img">
                 <img src="img/coming9.jpg" alt="">
             </div>
-            <h3>Ant-Man</h3>
-            <span>120 min | Action</span>
+            <h3>Bad Genius</h3>
+            <span>1h 36m | Action</span>
          </div>
          <!-- Box 10 -->
              <div class="swiper-slide box">
             <div class="box-img">
                 <img src="img/coming10.jpg" alt="">
             </div>
-            <h3>Guardians of the Galaxys</h3>
-            <span>120 min | Action</span>
+            <h3>Ballerina</h3>
+            <span>2h 4m | Action</span>
          </div>
          </div>
 
@@ -260,7 +256,7 @@
         <!-- Footer -->
          <section class="footer">
             <a href="#" class="logo">
-                <i class='bx bx-movie' ></i> Movies
+                <i class='bx bx-movie' ></i> NONTONIQ
             </a>
             <div class="social">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
